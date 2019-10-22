@@ -160,11 +160,13 @@ a.btn:hover {
   margin-left: -80px;
 }
 .header .name {
+  font-family:"YouYuan";
   font-size: 48px;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
 }
 .header .title {
+  font-family:"YouYuan";
   font-size: 28px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
@@ -178,7 +180,9 @@ a.btn:hover {
   font-size: 16px;
 }
 .header .profile {
-  max-width: 800px;
+  font-family:"YouYuan";
+  font-stretch:wider;
+  max-width: 950px;
   margin: 0 auto;
 }
 .header .contact-info {
