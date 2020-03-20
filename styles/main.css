@@ -1313,8 +1313,8 @@
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #888;  /*微博栏*/
-  color: #FFFFFF;  /*字体颜色*/
+  background-color: rgb(42, 114, 148);  /*yunxu微博栏*/
+  color: #FFFFFF;  /*yunxu字体颜色*/
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover,
@@ -1335,7 +1335,7 @@
 .navbar .navbar-nav > a.btn.dropdown-toggle:focus,
 .show >
 .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-  background-color: #979797;
+  background-color: rgb(34, 96, 134);
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1505,7 +1505,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;   /*yunxu下载CV背景颜色*/
+  background-color: #2D82B5;   /*yunxu下载CV背景颜色*/
   color: #FFFFFF;
 }
 
@@ -1513,7 +1513,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;     /*yunxu下载CV覆盖颜色*/
+  background-color: #3399cc;     /*yunxu下载CV覆盖颜色*/
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2588,16 +2588,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {/*yunxuSKILLbar 背景色*/
-  background: rgba(55, 140, 63, 0.4);    
+  background: rgba(55, 71, 140, 0.4);    
 }
 
 .progress-container.progress-primary .progress-bar {   /*yunxuSKILLbar 前景色*/
-  background: #378C3F;
+  background: #2a5caa;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {/*yunxuSKILLbar 字体色*/
-  color: #378C3F;
+  color: #2a5caa;
 }
 
 .progress-container.progress-info .progress {
@@ -2820,11 +2820,11 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #015C92;    /*yunxu 超链接颜色*/
 }
 
 a:hover, a:focus {
-  color: #378C3F;
+  color: #2D82B5;
 }
 
 h1, .h1 {
@@ -2981,7 +2981,7 @@ p {
 body {
   color: #2c2c2c;
   font-size: 14px;
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Microsoft YaHei", 微软雅黑, "Montserrat", "Helvetica Neue", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -3092,7 +3092,7 @@ body {
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #378C3F;
+  background-color: #015c92;  /*yunxu 作品栏颜色*/
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
@@ -3392,7 +3392,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;  /*yunxu导航栏颜色*/
+  background-color: #015C92 !important;  /*yunxu导航栏颜色*/
 }
 
 .bg-info {
@@ -5186,17 +5186,17 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header:before {
-  background-color: rgba(0, 0, 0, 0.5);  /*yunxu头像下蒙版*/
+  background-color: rgba(36, 82, 126, 0.5);  /*yunxu头像下蒙版*/
 }
 
-.page-header[filter-color="orange"] {
+.page-header[filter-color="orange"] { /*yunxu头像下蒙版*/
   background: rgba(44, 44, 44, 0.2);
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(224, 23, 3, 0.6)));
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(30, 121, 226, 0.6))); /*yunxu头像下蒙版*/
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(30, 121, 226, 0.6));
   /* Standard syntax */
 }
 
@@ -7086,7 +7086,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);  /*yunxu头像框颜色*/
+  border: 15px solid rgba(38, 132, 240, 0.6);  /*yunxu头像框颜色*/
   border-radius: 50%;
   height: 180px;
   width: 180px;
